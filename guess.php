@@ -17,7 +17,8 @@ $goodtext = "";
 $guess = "";
 $code = "";
 $no = range(11 , 99);
-$guess = $no['array_rand($no,1)'];
+$no1 = array_rand($no,1);
+$guess = $no[$no1];
 if (isset($_GET['code'])) {
   $code = $_GET['code'];
 }
