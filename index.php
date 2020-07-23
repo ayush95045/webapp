@@ -102,6 +102,7 @@ elseif ($com2==paper && $you ==sci) {
 				float: left;
 				background-color: #4aede2;
 
+
 	    }
         #p3 {
 
@@ -119,7 +120,7 @@ elseif ($com2==paper && $you ==sci) {
 				}
 				span {
 					text-align: center;
-					font-size: 200%;
+					font-size: 4em;
 					padding-left: 35%;
 					padding-top: 15%;
 					display: inline-block;
@@ -128,6 +129,7 @@ elseif ($com2==paper && $you ==sci) {
 					font-weight: 800;
 
 				}
+                      #ins { text-align: center;color: white;}
 
 
 
@@ -155,5 +157,9 @@ elseif ($com2==paper && $you ==sci) {
 	<label><input type="submit" value="PLAY" name="submit" style="background-color:#dadd16;float:right;margin-right:2%;"></label>
 
 </form>
+<div id="ins">
+ <h3>How to play?</h3>
+ <h4>select one option<br>click on play!</h4>
+</div>
 </body>
 </html>
