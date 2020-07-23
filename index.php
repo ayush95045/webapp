@@ -4,15 +4,15 @@ $com1 = array_rand($com , 1);
 $com2 = $com[$com1]; //computer select from stone,...
 $you = 'sci';
 $you = $_GET['rps'];
-$result = "YOU LOOSE!";
-if ($you==sic && $com2==stone) {
-	$result="YOU LOOSE!";
-}
+$result = "Lets start!";
 if ($com2==$you) {
 	$result="DRAW!";
 }
 elseif ($com2==sci && $you ==stone) {
 	$result="YOU WIN!";
+}
+elseif ($you==sic && $com2==stone) {
+	$result="YOU LOOSE!";
 }
 elseif ($com2==paper && $you==stone) {
 	$result = "YOU LOOSE!";
@@ -20,7 +20,7 @@ elseif ($com2==paper && $you==stone) {
 elseif ($com2==stone && $you==paper) {
 	$result = "YOU WIN!";
 }
-elseif ($com2==sci && $yo ==paper) {
+elseif ($com2==sci && $you ==paper) {
 	$result = "YOU LOOSE!";
 }
 elseif ($com2==paper && $you ==sci) {
