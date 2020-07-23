@@ -121,7 +121,7 @@ elseif ($com2==paper && $you ==sci) {
 				span {
 					text-align: center;
 					font-size: 4em;
-					padding-left: 35%;
+					padding-left: 40%;
 					padding-top: 15%;
 					display: inline-block;
 					color:#f40b0b;
@@ -129,7 +129,7 @@ elseif ($com2==paper && $you ==sci) {
 					font-weight: 800;
 
 				}
-                      #ins { text-align: center;color: white;}
+                      #ins { text-align: center;color: white;font-size: 5em;}
 
 
 
