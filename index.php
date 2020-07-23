@@ -2,7 +2,7 @@
 $com  = array('stone','paper','sci');
 $com1 = array_rand($com , 1);
 $com2 = $com[$com1]; //computer select from stone,...
-$you = 'que';
+$you = "que";
 $you = $_GET['rps'];
 $result = "Lets start!";
 if ($com2==$you) {
