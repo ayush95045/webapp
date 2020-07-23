@@ -11,8 +11,8 @@ if ($com2==$you) {
 elseif ($com2==sci && $you ==stone) {
 	$result="YOU WIN!";
 }
-elseif ($you==sic && $com2==stone) {
-	$result="YOU LOOSE!";
+elseif ($com2==stone && $you==sci) {
+	$result = "You Loose!";
 }
 elseif ($com2==paper && $you==stone) {
 	$result = "YOU LOOSE!";
