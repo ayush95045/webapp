@@ -54,7 +54,7 @@ elseif ($com2==paper && $you ==sci) {
 			width: 100%
 			padding: 50px;
 			text-shadow: 3px 3px 3px #df32a8;
-			font-size: 5.1em;
+			font-size: 4.5em;
 		}
 		input {
 
