@@ -156,7 +156,7 @@ elseif ($com2==paper && $you ==sci) {
 	<label><input type="radio" value="stone" name="rps" ><h2>ROCK</h2></label>
 	<label><input type="radio" value="paper" name="rps"><h2>PAPER</h2></label>
 	<label><input type="radio" value="sci"  name="rps"><h2>SCISSOR</h2></label>
-	<label><input type="submit" value="PLAY" name="submit" style="background-color:#dadd16;float:right;margin-right:2%;"></label>
+	<label><input type="submit" value="PLAY" name="submit" style="background-color:#dadd16;float:right;margin-right:2%;font-size:2em;"></label>
 
 </form>
 <div id="ins">
