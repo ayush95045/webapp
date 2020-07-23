@@ -42,6 +42,8 @@ elseif ($com2==paper && $you ==sci) {
 		html,body {
 			height: 100%;
 			width: 100%;
+			background-color: black;
+
 		}
 		h1 {box-sizing: border-box;
 			padding: 0% 0% 0% 5%;
@@ -52,6 +54,7 @@ elseif ($com2==paper && $you ==sci) {
 			width: 100%
 			padding: 50px;
 			text-shadow: 3px 3px 3px #df32a8;
+			font-size: 5.1em;
 		}
 		input {
 
@@ -79,7 +82,7 @@ elseif ($com2==paper && $you ==sci) {
       div {
         box-sizing: border-box;
         display: inline-block;
-        height: 40%;
+        height: 20%;
 				width: 100%;
       }
 
