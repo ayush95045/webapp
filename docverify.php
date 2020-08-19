@@ -1,6 +1,6 @@
 <?php 
 $test = "$_POST['url'];
-print_r($test)
+print_r($test);
 
       
 ?>
