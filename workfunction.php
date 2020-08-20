@@ -20,7 +20,7 @@ preg_match_all("/<title>(.*)<\/title>/",$data,$tell);
 preg_match_all("/<h1>(.*)<\/h1>/",$data,$tell2);
 preg_match_all("/<h2>(.*)<\/h2>/",$data,$tell3);
 /*running verification process*/
-if ($tell[1][0]=="verify"&& $tell2[1][0] == "veri908790fy76" && $tell3[1][0] == "codever67ghtyzx6677tu") {
+if ($tell[1][0]=="loadverht005918.html"&& $tell2[1][0] == "veri908790fy76" && $tell3[1][0] == "codever67ghtyzx6677tu") {
   require 'valfile.php';
 }else {
   require 'invalfile.php';
