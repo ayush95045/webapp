@@ -2,11 +2,12 @@
 if (isset($_POST['data'])) {
 
 $data = $_POST['data'];
+$dat = array( "0" => "$data");
 $ch = curl_init();
 curl_setopt($ch, CURLOPT_URL, "https://web-app-ayu.herokuapp.com/curl2.php");
 curl_setopt($ch, CURLOPT_RETURNTRANSFER,1);
 curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "GET");
-curl_setopt($ch, CURLOPT_POSTFIELDS, $data);
+curl_setopt($ch, CURLOPT_POSTFIELDS, $dat);
 $result = curl_exec($ch);
 if ($result === FALSE) {
   echo "error-". curl_error($ch);
