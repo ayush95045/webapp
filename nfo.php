@@ -154,10 +154,7 @@ class UserInfo{
 	}
 
 }
-<html>
-<head>
-<title>user data</title>
-<meta charset="utf-8" />
+
 <style type="text/css">
 * {
   font-family: sans-serif; /* Change your font family */
@@ -193,8 +190,6 @@ p { text-align: center;
 .red { color: red;}
 .green { color: green;}
 </style>
-</head>
-<body>
 <table class="content-table">
   <thead>
     <tr>
@@ -237,5 +232,4 @@ p { text-align: center;
 <div class="green">Or use Vpn for for safety</div>
 </div>
 <p>copyright &copy; reserved ayush</p>
-</body>
-</html>
+
