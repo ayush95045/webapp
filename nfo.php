@@ -57,25 +57,25 @@ p { text-align: center;
     <tr>
       <td>1</td>
       <td>Ip address</td>
-      <td><?=echo UserInfo::get_ip();?></td>
+      <td><?= UserInfo::get_ip();?></td>
       
     </tr>
     <tr class="active-row">
       <td>2</td>
       <td>Os_platform</td>
-      <td><?=echo UserInfo::get_os();?></td>
+      <td><?= UserInfo::get_os();?></td>
      
     </tr>
     <tr>
       <td>3</td>
       <td>Browser</td>
-      <td><?=echo UserInfo::get_browser();></td>
+      <td><?= UserInfo::get_browser();></td>
       
     </tr>
     <tr>
     <td>4</td>
     <td>Device</td>
-    <td><?=echo UserInfo::get_device()?></td>
+    <td><?= UserInfo::get_device()?></td>
     
     </tr>
   </tbody>
